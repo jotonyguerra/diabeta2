@@ -2,6 +2,7 @@ require 'uri'
 require 'net/http'
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
+  before_action :authenticate_user!
 
 
   url = URI("https://api.dexcom.com/v1/oauth2/token")

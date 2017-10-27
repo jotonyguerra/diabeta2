@@ -3,21 +3,19 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
+- ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
 
 * Configuration
 
 * Database creation
+- Postgres
 
-* Database initialization
 
 * How to run the test suite
+Rspec Rake
 
-* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
